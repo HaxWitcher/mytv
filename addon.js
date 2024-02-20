@@ -16,28 +16,12 @@ const fetchM3uLists = async () => {
 };
 
 // Glavna funkcija add-ona
-const addon = {
-    manifest: {
-        id: 'vas-addon-id',
-        version: '1.0.0',
-        name: 'Moj IPTV Addon',
-        description: 'Prikazuje m3u liste sa GitHub-a u Stremio.',
-        resources: ['catalog'],
-        types: ['channel'],
-        idPrefixes: ['m3u'],
-    },
-    async getCatalog() {
-        const m3uLists = await fetchM3uLists();
-        const channels = m3uLists.map((url, index) => ({
-            id: `m3u:${index}`,
-            name: `Kanal ${index + 1}`,
-            logo: 'https://link-do-loga-kanala.com/logo.png', // Dodajte stvarni URL loga kanala
-            url,
-        }));
-        return { metas: channels };
-    },
+const addonHandler = (req, res) => {
+    // Implementacija vašeg add-ona...
 };
 
-// Pokretanje add-ona
-serveHTTP(addon);
-publishToCentral(addon);
+// Postavite port na kojem add-on sluša zahteva
+const port = process.env.PORT || 7000;
+const addonInterface = serveHTTP(addonHandler, { port });
+
+console.log(`Add-on je pokrenut na portu ${port}...`);
