@@ -2,7 +2,7 @@ const { serveHTTP, publishToCentral } = require('stremio-addon-sdk');
 const axios = require('axios');
 
 // URL vašeg GitHub direktorijuma sa m3u listama
-const GITHUB_M3U_URL = 'https://raw.githubusercontent.com/vas-username/vas-repo/master/m3u-liste.m3u';
+const GITHUB_M3U_URL = 'https://github.com/HaxWitcher/mytv/tree/main/m3u';
 
 // Funkcija za učitavanje m3u lista
 const fetchM3uLists = async () => {
