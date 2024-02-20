@@ -1,12 +1,9 @@
 {
-    "name": "plextv-addon",
+    "name": "plextv",
     "version": "1.0.0",
-    "description": "PlexTV Stremio dodatak",
-    "main": "plextv.js",
+    "description": "Stremio addon for loading m3u TV lists",
+    "main": "plextv.py",
     "scripts": {
-        "start": "node plextv.js"
-    },
-    "dependencies": {
-        "stremio-addon-sdk": "^4.0.0"
+        "start": "python plextv.py"
     }
 }
