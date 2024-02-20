@@ -1,1 +1,1 @@
-web: node plextv.js
+web: python plextv.py
