@@ -1,0 +1,15 @@
+{
+    "name": "moj-iptv-addon",
+    "version": "1.0.0",
+    "description": "Moj IPTV add-on za Stremio",
+    "main": "addon.js",
+    "scripts": {
+        "start": "node addon.js"
+    },
+    "author": "PlexMedia",
+    "license": "MIT",
+    "dependencies": {
+        "stremio-addon-sdk": "^1.0.0",
+        "axios": "^0.24.0"
+    }
+}
