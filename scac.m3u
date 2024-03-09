@@ -1,6 +1,6 @@
-#EXTM3U 
+#EXTM3U
 #EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",NAME="English",DEFAULT=YES,AUTOSELECT=YES,FORCED=NO,LANGUAGE="en",URI="https://drive.google.com/uc?export=download&id=16O-N8oj2C9x3NiJV_b4G4jy1_TNm1bkl"
 #EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",NAME="Spanish",DEFAULT=NO,AUTOSELECT=YES,FORCED=NO,LANGUAGE="es",URI="https://drive.google.com/uc?export=download&id=SUBTITLES_LINK"
 #EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",NAME="French",DEFAULT=NO,AUTOSELECT=YES,FORCED=NO,LANGUAGE="fr",URI="https://drive.google.com/uc?export=download&id=SUBTITLES_LINK"
-#EXTINF: -1 group-title="FIlmovizizz", Kobra
+#EXTINF:-1 tvg-name="Kobra",Kobra
 https://invidious.einfachzocken.eu/latest_version?id=D3aP2lf1dt8&itag=22
