@@ -1,28 +1,18 @@
-#EXTM10U
-#EXT-X-VERSION:10
-#EXT-X-TARGETDURATION:10
-#EXT-X-MEDIA-SEQUENCE:0
-#EXT-X-PLAYLIST-TYPE:EVENT
-
-#EXTINF:10,
+#EXTM3U
+#EXTINF:-1,001 - Willax HD
 https://ce.pornxp.cc/UinqO_8bRc1d34gPa1OqxLvMQ/3959438883/360.mp4
-#EXTINF:10,
-https://cf.pornxp.cc/zttNqC8cH5x93Yu6x1kczK6uQ/3550196690/360.mp4
-#EXTINF:10,
-https://cdrn.pornxp.cc/3Z2M1L84evn23RTTt15i5bvaA/91616257120/360.mp4
-#EXTINF:10,
-https://www.example.com/video4.mp4
-#EXTINF:10,
-https://www.example.com/video5.mp4
-#EXTINF:10,
-https://www.example.com/video6.mp4
-#EXTINF:10,
-https://www.example.com/video7.mp4
-#EXTINF:10,
-https://www.example.com/video8.mp4
-#EXTINF:10,
-https://www.example.com/video9.mp4
-#EXTINF:10,
-https://www.example.com/video10.mp4
+#EXTINF:-1,002 - Latina HD
+http://161.132.108.74:50001/play/a029/index.m3u8
+#EXTINF:-1,004 - America TV HD
+http://161.132.108.74:50001/play/a02a/index.m3u8
+#EXTINF:-1,005 - Panamericana HD
+http://161.132.108.74:50001/play/a02b/index.m3u8
+#EXTINF:-1,005.1 - Top Latino HD
+http://161.132.108.74:50001/play/a042/index.m3u8
+#EXTINF:-1,006 - Exitosa HD
+http://161.132.108.74:50001/play/a02d/index.m3u8
+#EXTINF:-1,006.1 - IPE HD
+http://161.132.108.74:50001/play/a02f/index.m3u8
+#EXTINF:-1,007 - TV Peru HD
+http://161.132.108.74:50001/play/a02e/index.m3u8
 
-#EXT-X-ENDLIST
